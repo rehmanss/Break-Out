@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=View
+comment0.text=\n\ Displays\ a\ graphical\ view\ of\ the\ game\ of\ breakout.\n\ \ Uses\ Graphics2D\ would\ need\ to\ be\ re-implemented\ for\ Android.\n\ @author\ Mike\ Smith\ University\ of\ Brighton\n
+comment1.params=width\ height
+comment1.target=View(int,\ int)
+comment1.text=\n\ Construct\ the\ view\ of\ the\ game\n\ @param\ width\ Width\ of\ the\ view\ pixels\n\ @param\ height\ Height\ of\ the\ view\ pixels\n
+comment2.params=g
+comment2.target=void\ drawActualPicture(java.awt.Graphics2D)
+comment2.text=\n\ \ Code\ called\ to\ draw\ the\ current\ state\ of\ the\ game\n\ \ \ Uses\ draw\:\ \ \ \ \ \ \ Draw\ a\ shape\n\ \ \ \ \ \ \ \ fill\:\ \ \ \ \ \ \ Fill\ the\ shape\n\ \ \ \ \ \ \ \ setPaint\:\ \ \ Colour\ used\n\ \ \ \ \ \ \ \ drawString\:\ Write\ string\ on\ display\n\ \ @param\ g\ Graphics\ context\ to\ use\n
+comment3.params=g\ go
+comment3.target=void\ displayGameObj(java.awt.Graphics2D,\ GameObj)
+comment4.params=aModel\ arg
+comment4.target=void\ update(java.util.Observable,\ java.lang.Object)
+comment4.text=\n\ Called\ indirectly\ from\ the\ model\ when\ its\ state\ has\ changed\n\ @param\ aModel\ Model\ to\ be\ displayed\n\ @param\ arg\ \ \ \ Any\ arguments\ (Not\ used)\n
+comment5.params=g
+comment5.target=void\ update(java.awt.Graphics)
+comment5.text=\n\ Called\ by\ repaint\ to\ redraw\ the\ Model\n\ @param\ g\ \ \ \ Graphics\ context\n
+comment6.params=g
+comment6.target=void\ paint(java.awt.Graphics)
+comment6.text=\n\ Called\ when\ window\ is\ first\ shown\ or\ damaged\n\ @param\ g\ \ \ \ Graphics\ context\n
+comment7.params=g
+comment7.target=void\ drawPicture(java.awt.Graphics2D)
+comment7.text=\n\ Double\ buffer\ graphics\ output\ to\ avoid\ flicker\n\ @param\ g\ The\ graphics\ context\n
+comment8.params=aPongController
+comment8.target=void\ setController(Controller)
+comment8.text=\n\ Need\ to\ be\ told\ where\ the\ controller\ is\n\ @param\ aPongController\ The\ controller\ used\n
+numComments=9

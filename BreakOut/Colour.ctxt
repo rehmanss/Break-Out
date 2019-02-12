@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=Colour
+comment0.text=\n\ Hide\ the\ specific\ internal\ representation\ of\ colours\n\ \ from\ most\ of\ the\ program.\n\ Map\ to\ Swing\ color\ when\ required.\n
+comment1.params=c
+comment1.target=Colour(java.awt.Color)
+comment2.params=
+comment2.target=java.awt.Color\ forSwing()
+numComments=3
